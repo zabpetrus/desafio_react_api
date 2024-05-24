@@ -14,7 +14,7 @@ namespace backend.Test.UnitTests
     public class ProductServiceTest
     {
         [Fact]
-        public void Test1()
+        public void ServiceGetProductsTest()
         {
             //Teste de List<Product> GetProducts();
 
@@ -35,7 +35,7 @@ namespace backend.Test.UnitTests
 
 
         [Fact]
-        public void Test2()
+        public void ServiceGetProductByIdTest()
         {
             int id = 1;
             var product = new Product(1, "Sapato de couro", "Sapato resistente de Courino", 125.66m);
@@ -52,7 +52,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test3()
+        public void ServiceCreateNewProductTest()
         {
             // Teste de int CreateNewProduct(ProductViewModel product);
             var product = new Product(1, "Sapato de couro", "Sapato resistente de Courino", 125.66m);
@@ -68,7 +68,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test4()
+        public void ServiceUpdateProductTest()
         {
             //Teste de int UpdateProduct(int id, ProductViewModel product);
             //Observação: Não se requer o id aqui, o processamento é no service
@@ -86,7 +86,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test5()
+        public void ServiceDeleteProductByIdTest()
         {
             //Teste de int DeleteProductById(int id);
             int id = 1;

@@ -17,7 +17,7 @@ namespace backend.Test.UnitTests
     {
 
         [Fact]
-        public void Test1()
+        public void RepositoryAddProductTest()
         {
             //Teste de  int AddProduct(Product product);
 
@@ -35,7 +35,7 @@ namespace backend.Test.UnitTests
 
 
         [Fact]
-        public void Test2()
+        public void RepositoryGetProductByIdTest()
         {
             //Teste de int Product GetProductById(int id);
 
@@ -52,7 +52,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test3()
+        public void RepositoryGetAllProductsTest()
         {
             //Teste de List<Product> GetAllProducts();
 
@@ -71,7 +71,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test4()
+        public void RepositoryUpdateProductTest()
         {
             //Teste de int UpdateProduct(Product product);
 
@@ -87,7 +87,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test5()
+        public void RepositoryDeleteProductTest()
         {
             //Teste de int DeleteProduct(int id);;
 

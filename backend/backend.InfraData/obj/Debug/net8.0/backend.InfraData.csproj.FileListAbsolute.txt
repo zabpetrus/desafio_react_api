@@ -2,7 +2,9 @@ J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.InfraData.deps.jso
 J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.InfraData.runtimeconfig.json
 J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.InfraData.dll
 J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.InfraData.pdb
+J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.Application.dll
 J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.Domain.dll
+J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.Application.pdb
 J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.Domain.pdb
 J:\desafio\backend\backend.InfraData\obj\Debug\net8.0\backend.InfraData.csproj.AssemblyReference.cache
 J:\desafio\backend\backend.InfraData\obj\Debug\net8.0\backend.InfraData.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,5 +18,3 @@ J:\desafio\backend\backend.InfraData\obj\Debug\net8.0\refint\backend.InfraData.d
 J:\desafio\backend\backend.InfraData\obj\Debug\net8.0\backend.InfraData.pdb
 J:\desafio\backend\backend.InfraData\obj\Debug\net8.0\backend.InfraData.genruntimeconfig.cache
 J:\desafio\backend\backend.InfraData\obj\Debug\net8.0\ref\backend.InfraData.dll
-J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.Application.dll
-J:\desafio\backend\backend.InfraData\bin\Debug\net8.0\backend.Application.pdb

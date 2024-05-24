@@ -27,7 +27,7 @@ namespace backend.Test.IntegrationTests
 
 
         [Fact]
-        public void Test1()
+        public void ProductMappingProfile()
         {
             // Arrange
             var product = new Product(1, "Sapato de couro", "Sapato resistente de Courino", 125.66m);

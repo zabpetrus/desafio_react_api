@@ -1,0 +1,9 @@
+Add-Migration 
+
+J:\desafio\backend\backend.InfraData\Context\backendApiContext
+
+dotnet ef migrations add Initial --context backend.InfraData.Context.backendApiContext -o J:\desafio\backend\backend.InfraData\Context\
+
+dotnet ef database update --verbose --project J:\desafio\backend\backend.InfraData\backend.InfraData.csproj --startup-project J:\desafio\backend\backend.Api\backend.Api.csproj
+
+dotnet ef migrations add Initial --context backend.InfraData.Context.backendApiContext -o .backend.InfraData\Context --project backend.InfraData/Context/backend.InfraData.csproj

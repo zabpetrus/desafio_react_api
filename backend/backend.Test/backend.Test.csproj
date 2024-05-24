@@ -41,7 +41,6 @@
     <ProjectReference Include="..\backend.CrossCutting\backend.CrossCutting.csproj" />
     <ProjectReference Include="..\backend.Domain\backend.Domain.csproj" />
     <ProjectReference Include="..\backend.InfraData\backend.InfraData.csproj" />
-    <ProjectReference Include="..\backend\backend.Api.csproj" />
   </ItemGroup>
 
 </Project>

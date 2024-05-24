@@ -4273,6 +4273,7 @@
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging": "8.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
+          "Moq": "4.20.70",
           "Newtonsoft.Json": "13.0.3",
           "SQLite": "3.13.0",
           "Swashbuckle.AspNetCore": "6.4.0",
@@ -12755,8 +12756,8 @@
     },
     "backend.Api/1.0.0": {
       "type": "project",
-      "path": "../backend/backend.Api.csproj",
-      "msbuildProject": "../backend/backend.Api.csproj"
+      "path": "../backend.Api/backend.Api.csproj",
+      "msbuildProject": "../backend.Api/backend.Api.csproj"
     },
     "backend.Application/1.0.0": {
       "type": "project",
@@ -12851,9 +12852,6 @@
             },
             "J:\\desafio\\backend\\backend.InfraData\\backend.InfraData.csproj": {
               "projectPath": "J:\\desafio\\backend\\backend.InfraData\\backend.InfraData.csproj"
-            },
-            "J:\\desafio\\backend\\backend\\backend.Api.csproj": {
-              "projectPath": "J:\\desafio\\backend\\backend\\backend.Api.csproj"
             }
           }
         }

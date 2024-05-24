@@ -12,7 +12,7 @@ namespace backend.Test.DatabaseTests
     public class SqliteTestConnection
     {
         [Fact]
-        public void Test1()
+        public void StringConnctionTest()
         {
             // Arrange
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=J:\\desafio\\backend\\backend.InfraData\\Database.mdf;Integrated Security=True;Connect Timeout=30";

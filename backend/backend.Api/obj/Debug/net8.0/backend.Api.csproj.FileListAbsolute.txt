@@ -273,6 +273,7 @@ J:\desafio\backend\backend.Api\bin\Debug\net8.0\backend.Api.runtimeconfig.json
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\backend.Api.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\backend.Api.pdb
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\AutoMapper.dll
+J:\desafio\backend\backend.Api\bin\Debug\net8.0\Castle.Core.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\Humanizer.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -308,6 +309,7 @@ J:\desafio\backend\backend.Api\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeG
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+J:\desafio\backend\backend.Api\bin\Debug\net8.0\Moq.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\NuGet.Common.dll
 J:\desafio\backend\backend.Api\bin\Debug\net8.0\NuGet.Configuration.dll
@@ -533,5 +535,3 @@ J:\desafio\backend\backend.Api\obj\Debug\net8.0\refint\backend.Api.dll
 J:\desafio\backend\backend.Api\obj\Debug\net8.0\backend.Api.pdb
 J:\desafio\backend\backend.Api\obj\Debug\net8.0\backend.Api.genruntimeconfig.cache
 J:\desafio\backend\backend.Api\obj\Debug\net8.0\ref\backend.Api.dll
-J:\desafio\backend\backend.Api\bin\Debug\net8.0\Castle.Core.dll
-J:\desafio\backend\backend.Api\bin\Debug\net8.0\Moq.dll

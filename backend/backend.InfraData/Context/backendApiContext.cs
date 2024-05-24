@@ -21,5 +21,11 @@ namespace backend.InfraData.Context
         {
             optionsBuilder.UseSqlite("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=J:\\desafio\\backend\\backend.InfraData\\Database.mdf;Integrated Security=True"); // Usando a string de conexão SQLite fornecida
         }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<Product>().HasKey(m => m.id);
+            base.OnModelCreating(builder);
+        }
     }
 }

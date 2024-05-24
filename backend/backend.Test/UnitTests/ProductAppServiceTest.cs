@@ -15,7 +15,7 @@ namespace backend.Test.UnitTests
     {
         
         [Fact]
-        public void Test1()
+        public void AppServiceGetAllProductsTests()
         {
             //Teste de List<ProductViewModel> GetAllProducts();
 
@@ -36,7 +36,7 @@ namespace backend.Test.UnitTests
 
 
         [Fact]
-        public void Test2()
+        public void AppServiceGetProductByIdTests()
         {
             int id = 1;
             var productViewModel = new ProductViewModel("Sapato de couro", "Sapato resistente de Courino", 125.66m);
@@ -53,7 +53,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test3()
+        public void AppServiceCreateNewProductTests()
         {
             // Teste de int CreateNewProduct(ProductViewModel product);
             var productViewModel = new ProductViewModel("Sapato de couro", "Sapato resistente de Courino", 125.66m);
@@ -69,7 +69,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test4()
+        public void AppServiceUpdateProductTest()
         {
             //Teste de int UpdateProduct(int id, ProductViewModel product);
 
@@ -87,7 +87,7 @@ namespace backend.Test.UnitTests
         }
 
         [Fact]
-        public void Test5()
+        public void AppServiceDeleteProductsTest()
         {
             //Teste de int DeleteProductById(int id);
             int id = 1;

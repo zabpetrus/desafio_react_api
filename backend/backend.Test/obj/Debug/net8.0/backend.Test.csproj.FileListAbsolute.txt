@@ -1,5 +1,10 @@
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_backend.Test
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\testhost.dll
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.deps.json
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.runtimeconfig.json
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\appsettings.Development.json
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\appsettings.json
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.exe
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\testhost.exe
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
@@ -9,6 +14,7 @@ J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Test.runtimeconfig.json
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Test.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Test.pdb
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\AutoMapper.dll
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\Castle.Core.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\Humanizer.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -52,6 +58,7 @@ J:\desafio\backend\backend.Test\bin\Debug\net8.0\Microsoft.VisualStudio.Web.Code
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\Mono.TextTemplating.dll
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\Moq.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\Newtonsoft.Json.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\NuGet.Common.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\NuGet.Configuration.dll
@@ -316,10 +323,12 @@ J:\desafio\backend\backend.Test\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlit
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Application.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.CrossCutting.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Domain.dll
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.InfraData.dll
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.pdb
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Application.pdb
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.CrossCutting.pdb
 J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Domain.pdb
@@ -336,12 +345,3 @@ J:\desafio\backend\backend.Test\obj\Debug\net8.0\refint\backend.Test.dll
 J:\desafio\backend\backend.Test\obj\Debug\net8.0\backend.Test.pdb
 J:\desafio\backend\backend.Test\obj\Debug\net8.0\backend.Test.genruntimeconfig.cache
 J:\desafio\backend\backend.Test\obj\Debug\net8.0\ref\backend.Test.dll
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.deps.json
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.runtimeconfig.json
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\appsettings.Development.json
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\appsettings.json
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.exe
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\Castle.Core.dll
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\Moq.dll
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.dll
-J:\desafio\backend\backend.Test\bin\Debug\net8.0\backend.Api.pdb

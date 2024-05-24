@@ -5,7 +5,7 @@ namespace backend.Test
     public class DomainTest
     {
         [Fact]
-        public void Test1()
+        public void ProductBasicPriceTest()
         {
             Product product = new Product();
             product.id = 1;
@@ -18,7 +18,7 @@ namespace backend.Test
         }
 
         [Fact]
-        public void Test2()
+        public void ProductBasicIDTest()
         {
             Product product = new Product();
             product.id = 1;
@@ -33,7 +33,7 @@ namespace backend.Test
         }
 
         [Fact]
-        public void Test3()
+        public void ProductBasicNameTest()
         {
             Product product = new Product();
             product.id = 1;
@@ -47,7 +47,7 @@ namespace backend.Test
         }
 
         [Fact]
-        public void Test4()
+        public void ProductBasicDescriptionTest()
         {
             Product product = new Product();
             product.id = 1;
