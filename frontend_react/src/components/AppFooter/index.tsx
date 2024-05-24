@@ -1,14 +1,15 @@
 import React from 'react';
 
-interface Props {
-}
 
-const AppFooter = (props: Props) => {
+const AppFooter = () => {
+
+    return( 
     <footer className='footer'>
         <div className='row'>
-            @Todos os direitos reservados
+            <p> @Todos os direitos reservados</p>
         </div>
     </footer>
+    );
 };
 
 export default AppFooter;

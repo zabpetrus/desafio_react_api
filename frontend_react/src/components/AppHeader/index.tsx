@@ -1,10 +1,8 @@
 import React from 'react';
 
-interface Props {
-}
 
-const AppHeader = (props: Props) => {
-    return null;
+const AppHeader = () => {
+    return <header className='header'><h1>Frontend</h1></header>;
 };
 
 export default AppHeader;
