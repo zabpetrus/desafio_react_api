@@ -74,8 +74,7 @@
               "RelativeToolTip": "backend.Api\\Program.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T04:28:57.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T04:28:57.928Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "backend.Application\\ViewModel\\ProductViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:08:13.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:08:13.591Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "backend.Test\\UnitTests\\ProductServiceTest.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAgwCgAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:17:55.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:17:55.528Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "backend.Api\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-24T03:14:07.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:14:07.197Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "backend.Application\\AppService\\ProductAppService.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAowCwAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:29:31.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:29:31.597Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "backend.Test\\UnitTests\\ProductRepositoryTest.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:18:16.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:18:16.825Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "backend.Api\\Controllers\\ProductsController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAMwBkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:38:05.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:38:05.254Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "backend.Application\\Interfaces\\IProductAppService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:20:29.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:20:29.205Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAwwBsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:11:34.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:11:34.583Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "backend.Test\\backend.Test.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-24T03:09:01.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:09:01.718Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "backend.Api\\backend.Api.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-24T03:07:32.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:07:32.68Z"
             }
           ]
         }
