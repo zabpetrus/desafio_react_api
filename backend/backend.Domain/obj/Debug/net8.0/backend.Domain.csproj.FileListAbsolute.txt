@@ -1,4 +1,5 @@
 J:\desafio\backend\backend.Domain\bin\Debug\net8.0\backend.Domain.deps.json
+J:\desafio\backend\backend.Domain\bin\Debug\net8.0\backend.Domain.runtimeconfig.json
 J:\desafio\backend\backend.Domain\bin\Debug\net8.0\backend.Domain.dll
 J:\desafio\backend\backend.Domain\bin\Debug\net8.0\backend.Domain.pdb
 J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.csproj.AssemblyReference.cache
@@ -6,9 +7,9 @@ J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.GeneratedMSBui
 J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.AssemblyInfoInputs.cache
 J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.AssemblyInfo.cs
 J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.csproj.CoreCompileInputs.cache
+J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.sourcelink.json
 J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.dll
 J:\desafio\backend\backend.Domain\obj\Debug\net8.0\refint\backend.Domain.dll
 J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.pdb
-J:\desafio\backend\backend.Domain\obj\Debug\net8.0\ref\backend.Domain.dll
-J:\desafio\backend\backend.Domain\bin\Debug\net8.0\backend.Domain.runtimeconfig.json
 J:\desafio\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.genruntimeconfig.cache
+J:\desafio\backend\backend.Domain\obj\Debug\net8.0\ref\backend.Domain.dll

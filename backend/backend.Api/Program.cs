@@ -1,12 +1,16 @@
 ﻿using backend.InfraData.Context;
+using backend.InfraData.Mappings;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAutoMapper(typeof(ProductsProfile).Assembly);
+
 builder.Services.AddDbContext<backendApiContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("backendApiContext") ?? throw new InvalidOperationException("Connection string 'backendApiContext' not found.")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'backendApiContext' not found.")));
 
 // Add services to the container.
 

@@ -4,6 +4,147 @@
     "J:\\desafio\\backend\\backend.Test\\backend.Test.csproj": {}
   },
   "projects": {
+    "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
+        "projectName": "backend.Api",
+        "projectPath": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
+        "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
+        "outputPath": "J:\\desafio\\backend\\backend.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zsant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj": {
+                "projectPath": "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj"
+              },
+              "J:\\desafio\\backend\\backend.CrossCutting\\backend.CrossCutting.csproj": {
+                "projectPath": "J:\\desafio\\backend\\backend.CrossCutting\\backend.CrossCutting.csproj"
+              },
+              "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj": {
+                "projectPath": "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj"
+              },
+              "J:\\desafio\\backend\\backend.InfraData\\backend.InfraData.csproj": {
+                "projectPath": "J:\\desafio\\backend\\backend.InfraData\\backend.InfraData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -87,6 +228,10 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -201,6 +346,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -314,6 +463,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -372,6 +525,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj": {
+                "projectPath": "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj"
+              },
               "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj": {
                 "projectPath": "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj"
               }
@@ -431,6 +587,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -489,6 +649,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj": {
+                "projectPath": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj"
+              },
               "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj": {
                 "projectPath": "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj"
               },
@@ -563,6 +726,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

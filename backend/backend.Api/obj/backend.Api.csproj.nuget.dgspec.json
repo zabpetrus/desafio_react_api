@@ -105,6 +105,10 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -225,6 +229,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -337,6 +345,10 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -451,6 +463,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -509,6 +525,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj": {
+                "projectPath": "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj"
+              },
               "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj": {
                 "projectPath": "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj"
               }
@@ -567,6 +586,10 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

@@ -18,6 +18,22 @@
           }
         }
       },
+      "Castle.Core/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
@@ -2031,6 +2047,22 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Mono.TextTemplating.dll": {}
+        }
+      },
+      "Moq/4.20.70": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -4271,6 +4303,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.5",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging": "8.0.0",
+          "Moq": "4.20.70",
           "Newtonsoft.Json": "13.0.3",
           "SQLite": "3.13.0"
         },
@@ -4293,6 +4326,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.5",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging": "8.0.0",
+          "Moq": "4.20.70",
           "Newtonsoft.Json": "13.0.3",
           "SQLite": "3.13.0"
         },
@@ -4315,6 +4349,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.5",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging": "8.0.0",
+          "Moq": "4.20.70",
           "Newtonsoft.Json": "13.0.3",
           "SQLite": "3.13.0"
         },
@@ -4337,8 +4372,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.5",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging": "8.0.0",
+          "Moq": "4.20.70",
           "Newtonsoft.Json": "13.0.3",
           "SQLite": "3.13.0",
+          "backend.Application": "1.0.0",
           "backend.Domain": "1.0.0"
         },
         "compile": {
@@ -4364,6 +4401,30 @@
         "icon.png",
         "lib/net6.0/AutoMapper.dll",
         "lib/net6.0/AutoMapper.xml"
+      ]
+    },
+    "Castle.Core/5.1.1": {
+      "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "type": "package",
+      "path": "castle.core/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle-logo.png",
+        "castle.core.5.1.1.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net462/Castle.Core.dll",
+        "lib/net462/Castle.Core.xml",
+        "lib/net6.0/Castle.Core.dll",
+        "lib/net6.0/Castle.Core.xml",
+        "lib/netstandard2.0/Castle.Core.dll",
+        "lib/netstandard2.0/Castle.Core.xml",
+        "lib/netstandard2.1/Castle.Core.dll",
+        "lib/netstandard2.1/Castle.Core.xml",
+        "readme.txt"
       ]
     },
     "coverlet.collector/6.0.0": {
@@ -8143,6 +8204,27 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.3.1.nupkg.sha512",
         "mono.texttemplating.nuspec",
+        "readme.md"
+      ]
+    },
+    "Moq/4.20.70": {
+      "sha512": "4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
+      "type": "package",
+      "path": "moq/4.20.70",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/Moq.dll",
+        "lib/net462/Moq.xml",
+        "lib/net6.0/Moq.dll",
+        "lib/net6.0/Moq.xml",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.0/Moq.xml",
+        "lib/netstandard2.1/Moq.dll",
+        "lib/netstandard2.1/Moq.xml",
+        "moq.4.20.70.nupkg.sha512",
+        "moq.nuspec",
         "readme.md"
       ]
     },
@@ -12709,6 +12791,7 @@
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "Moq >= 4.20.70",
       "Newtonsoft.Json >= 13.0.3",
       "SQLite >= 3.13.0",
       "backend.Api >= 1.0.0",
@@ -12754,6 +12837,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj": {
+              "projectPath": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj"
+            },
             "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj": {
               "projectPath": "J:\\desafio\\backend\\backend.Application\\backend.Application.csproj"
             },
@@ -12828,6 +12914,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.20.70, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
