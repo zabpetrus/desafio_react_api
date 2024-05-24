@@ -1,0 +1,14 @@
+J:\desafio\backend\backend.CrossCutting\bin\Debug\net8.0\backend.CrossCutting.deps.json
+J:\desafio\backend\backend.CrossCutting\bin\Debug\net8.0\backend.CrossCutting.dll
+J:\desafio\backend\backend.CrossCutting\bin\Debug\net8.0\backend.CrossCutting.pdb
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\backend.CrossCutting.csproj.AssemblyReference.cache
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\backend.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\backend.CrossCutting.AssemblyInfoInputs.cache
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\backend.CrossCutting.AssemblyInfo.cs
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\backend.CrossCutting.csproj.CoreCompileInputs.cache
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\backend.CrossCutting.dll
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\refint\backend.CrossCutting.dll
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\backend.CrossCutting.pdb
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\ref\backend.CrossCutting.dll
+J:\desafio\backend\backend.CrossCutting\bin\Debug\net8.0\backend.CrossCutting.runtimeconfig.json
+J:\desafio\backend\backend.CrossCutting\obj\Debug\net8.0\backend.CrossCutting.genruntimeconfig.cache

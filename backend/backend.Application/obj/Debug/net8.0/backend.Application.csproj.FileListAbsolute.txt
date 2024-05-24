@@ -1,0 +1,14 @@
+J:\desafio\backend\backend.Application\bin\Debug\net8.0\backend.Application.deps.json
+J:\desafio\backend\backend.Application\bin\Debug\net8.0\backend.Application.dll
+J:\desafio\backend\backend.Application\bin\Debug\net8.0\backend.Application.pdb
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.csproj.AssemblyReference.cache
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.AssemblyInfoInputs.cache
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.AssemblyInfo.cs
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.csproj.CoreCompileInputs.cache
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.dll
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\refint\backend.Application.dll
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.pdb
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\ref\backend.Application.dll
+J:\desafio\backend\backend.Application\bin\Debug\net8.0\backend.Application.runtimeconfig.json
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.genruntimeconfig.cache

@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\desafio\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA06B6E-B683-429F-A71F-B5785E0E66B7}|backend.InfraData\\backend.InfraData.csproj|j:\\desafio\\backend\\backend.infradata\\context\\backendapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA06B6E-B683-429F-A71F-B5785E0E66B7}|backend.InfraData\\backend.InfraData.csproj|solutionrelative:backend.infradata\\context\\backendapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA06B6E-B683-429F-A71F-B5785E0E66B7}|backend.InfraData\\backend.InfraData.csproj|j:\\desafio\\backend\\backend.infradata\\backend.infradata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DEA06B6E-B683-429F-A71F-B5785E0E66B7}|backend.InfraData\\backend.InfraData.csproj|solutionrelative:backend.infradata\\backend.infradata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|j:\\desafio\\backend\\backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|solutionrelative:backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A08898-2E1A-48BE-8B8B-0B43CB45FE12}|backend.Domain\\backend.Domain.csproj|j:\\desafio\\backend\\backend.domain\\backend.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35A08898-2E1A-48BE-8B8B-0B43CB45FE12}|backend.Domain\\backend.Domain.csproj|solutionrelative:backend.domain\\backend.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A08898-2E1A-48BE-8B8B-0B43CB45FE12}|backend.Domain\\backend.Domain.csproj|j:\\desafio\\backend\\backend.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A08898-2E1A-48BE-8B8B-0B43CB45FE12}|backend.Domain\\backend.Domain.csproj|solutionrelative:backend.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|j:\\desafio\\backend\\backend.test\\backend.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|solutionrelative:backend.test\\backend.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08902A42-BAC2-4BD0-9922-5D9609B864D8}|backend.CrossCutting\\backend.CrossCutting.csproj|j:\\desafio\\backend\\backend.crosscutting\\backend.crosscutting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08902A42-BAC2-4BD0-9922-5D9609B864D8}|backend.CrossCutting\\backend.CrossCutting.csproj|solutionrelative:backend.crosscutting\\backend.crosscutting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|J:\\desafio\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|J:\\desafio\\backend\\backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 274,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "backend.Api",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
+              "RelativeDocumentMoniker": "backend.Api\\backend.Api.csproj",
+              "ToolTip": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
+              "RelativeToolTip": "backend.Api\\backend.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T21:27:22.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "backendApiContext.cs",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.InfraData\\Context\\backendApiContext.cs",
+              "RelativeDocumentMoniker": "backend.InfraData\\Context\\backendApiContext.cs",
+              "ToolTip": "J:\\desafio\\backend\\backend.InfraData\\Context\\backendApiContext.cs",
+              "RelativeToolTip": "backend.InfraData\\Context\\backendApiContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBUAAACpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:33:34.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.json",
+              "ToolTip": "J:\\desafio\\backend\\backend\\appsettings.json",
+              "RelativeToolTip": "backend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T20:25:30.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "J:\\desafio\\backend\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:13:54.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "backend.InfraData.csproj",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.InfraData\\backend.InfraData.csproj",
+              "RelativeDocumentMoniker": "backend.InfraData\\backend.InfraData.csproj",
+              "ToolTip": "J:\\desafio\\backend\\backend.InfraData\\backend.InfraData.csproj",
+              "RelativeToolTip": "backend.InfraData\\backend.InfraData.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T18:53:26.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "backend.Domain\\Entities\\Product.cs",
+              "ToolTip": "J:\\desafio\\backend\\backend.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "backend.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIA9wCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T19:06:31.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "backend.Domain.csproj",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj",
+              "RelativeDocumentMoniker": "backend.Domain\\backend.Domain.csproj",
+              "ToolTip": "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj",
+              "RelativeToolTip": "backend.Domain\\backend.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T18:52:50.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "backend.CrossCutting.csproj",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.CrossCutting\\backend.CrossCutting.csproj",
+              "RelativeDocumentMoniker": "backend.CrossCutting\\backend.CrossCutting.csproj",
+              "ToolTip": "J:\\desafio\\backend\\backend.CrossCutting\\backend.CrossCutting.csproj",
+              "RelativeToolTip": "backend.CrossCutting\\backend.CrossCutting.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T18:55:38.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "backend.Test.csproj",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\backend.Test.csproj",
+              "RelativeDocumentMoniker": "backend.Test\\backend.Test.csproj",
+              "ToolTip": "J:\\desafio\\backend\\backend.Test\\backend.Test.csproj",
+              "RelativeToolTip": "backend.Test\\backend.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T18:55:11.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
