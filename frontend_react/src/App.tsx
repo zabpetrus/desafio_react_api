@@ -4,6 +4,7 @@ import './App.css';
 import AppContent from './components/AppContent';
 import AppFooter from './components/AppFooter';
 import AppHeader from './components/AppHeader';
+import AppWeatherForecast from './components/AppWeatherForecast';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
                   <div className='col-6'>
                       <div className='row'>
                         <div className='col-12 spot'>
-                          <h3>WheatherForecats</h3>
+                          <h3>WeatherForecast</h3>
+                           <AppWeatherForecast/>
                         </div>                        
                       </div>
                       

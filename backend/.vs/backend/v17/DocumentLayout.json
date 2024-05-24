@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "J:\\desafio\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|j:\\desafio\\backend\\backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|solutionrelative:backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08902A42-BAC2-4BD0-9922-5D9609B864D8}|backend.CrossCutting\\backend.CrossCutting.csproj|j:\\desafio\\backend\\backend.crosscutting\\logging\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08902A42-BAC2-4BD0-9922-5D9609B864D8}|backend.CrossCutting\\backend.CrossCutting.csproj|solutionrelative:backend.crosscutting\\logging\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DEA06B6E-B683-429F-A71F-B5785E0E66B7}|backend.InfraData\\backend.InfraData.csproj|j:\\desafio\\backend\\backend.infradata\\mappings\\productsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEA06B6E-B683-429F-A71F-B5785E0E66B7}|backend.InfraData\\backend.InfraData.csproj|solutionrelative:backend.infradata\\mappings\\productsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{81CDA560-C2C0-4C99-8CEC-1569C7B85C34}|backend.Application\\backend.Application.csproj|j:\\desafio\\backend\\backend.application\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81CDA560-C2C0-4C99-8CEC-1569C7B85C34}|backend.Application\\backend.Application.csproj|solutionrelative:backend.application\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|j:\\desafio\\backend\\backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|solutionrelative:backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|j:\\desafio\\backend\\backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -66,32 +70,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "LoggingService.cs",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.CrossCutting\\Logging\\LoggingService.cs",
+              "RelativeDocumentMoniker": "backend.CrossCutting\\Logging\\LoggingService.cs",
+              "ToolTip": "J:\\desafio\\backend\\backend.CrossCutting\\Logging\\LoggingService.cs",
+              "RelativeToolTip": "backend.CrossCutting\\Logging\\LoggingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:32:53.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\Program.cs",
               "RelativeDocumentMoniker": "backend.Api\\Program.cs",
               "ToolTip": "J:\\desafio\\backend\\backend.Api\\Program.cs",
               "RelativeToolTip": "backend.Api\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAkAAABBAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T04:28:57.928Z"
+              "WhenOpened": "2024-05-24T04:28:57.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductsProfile.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.InfraData\\Mappings\\ProductsProfile.cs",
               "RelativeDocumentMoniker": "backend.InfraData\\Mappings\\ProductsProfile.cs",
               "ToolTip": "J:\\desafio\\backend\\backend.InfraData\\Mappings\\ProductsProfile.cs",
               "RelativeToolTip": "backend.InfraData\\Mappings\\ProductsProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T04:24:45.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Application\\ViewModel\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "backend.Application\\ViewModel\\ProductViewModel.cs",
@@ -99,11 +117,12 @@
               "RelativeToolTip": "backend.Application\\ViewModel\\ProductViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:08:13.591Z"
+              "WhenOpened": "2024-05-24T03:08:13.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductServiceTest.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductServiceTest.cs",
               "RelativeDocumentMoniker": "backend.Test\\UnitTests\\ProductServiceTest.cs",
@@ -111,11 +130,12 @@
               "RelativeToolTip": "backend.Test\\UnitTests\\ProductServiceTest.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAgwCgAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:17:55.528Z"
+              "WhenOpened": "2024-05-24T03:17:55.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\appsettings.json",
               "RelativeDocumentMoniker": "backend.Api\\appsettings.json",
@@ -123,11 +143,12 @@
               "RelativeToolTip": "backend.Api\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-24T03:14:07.197Z"
+              "WhenOpened": "2024-05-24T03:14:07.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductAppService.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Application\\AppService\\ProductAppService.cs",
               "RelativeDocumentMoniker": "backend.Application\\AppService\\ProductAppService.cs",
@@ -135,11 +156,12 @@
               "RelativeToolTip": "backend.Application\\AppService\\ProductAppService.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAowCwAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:29:31.597Z"
+              "WhenOpened": "2024-05-24T03:29:31.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductRepositoryTest.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductRepositoryTest.cs",
               "RelativeDocumentMoniker": "backend.Test\\UnitTests\\ProductRepositoryTest.cs",
@@ -147,11 +169,12 @@
               "RelativeToolTip": "backend.Test\\UnitTests\\ProductRepositoryTest.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:18:16.825Z"
+              "WhenOpened": "2024-05-24T03:18:16.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "backend.Api\\Controllers\\ProductsController.cs",
@@ -159,11 +182,12 @@
               "RelativeToolTip": "backend.Api\\Controllers\\ProductsController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAMwBkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:38:05.254Z"
+              "WhenOpened": "2024-05-24T03:38:05.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IProductAppService.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Application\\Interfaces\\IProductAppService.cs",
               "RelativeDocumentMoniker": "backend.Application\\Interfaces\\IProductAppService.cs",
@@ -171,11 +195,12 @@
               "RelativeToolTip": "backend.Application\\Interfaces\\IProductAppService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:20:29.205Z"
+              "WhenOpened": "2024-05-24T03:20:29.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SqliteTestConnection.cs",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
               "RelativeDocumentMoniker": "backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
@@ -183,11 +208,12 @@
               "RelativeToolTip": "backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAwwBsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:11:34.583Z"
+              "WhenOpened": "2024-05-24T03:11:34.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "backend.Test.csproj",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\backend.Test.csproj",
               "RelativeDocumentMoniker": "backend.Test\\backend.Test.csproj",
@@ -199,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "backend.Api.csproj",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
               "RelativeDocumentMoniker": "backend.Api\\backend.Api.csproj",

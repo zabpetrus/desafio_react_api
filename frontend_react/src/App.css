@@ -16,6 +16,7 @@
   height: 80vh;
   border-radius: 10px;
   padding: 1.5em;
+  overflow: scroll;
   
 }
 
