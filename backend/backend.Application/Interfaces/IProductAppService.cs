@@ -24,6 +24,10 @@ namespace backend.Application.Interfaces
         //Exclui um produto por id
         int DeleteProductById(int id);
 
+        List<ProductViewModel> SeachProduct(ProductViewModel productviewmodel);
+
+        bool ProductExists(int id);
+
 
     }
 }

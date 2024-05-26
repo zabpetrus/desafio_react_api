@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "J:\\desafio\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|j:\\desafio\\backend\\backend.test\\unittests\\productservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|solutionrelative:backend.test\\unittests\\productservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|j:\\desafio\\backend\\backend.test\\unittests\\productrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|solutionrelative:backend.test\\unittests\\productrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|j:\\desafio\\backend\\backend.test\\unittests\\productappservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|solutionrelative:backend.test\\unittests\\productappservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|j:\\desafio\\backend\\backend.test\\integrationtests\\productsmappingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|solutionrelative:backend.test\\integrationtests\\productsmappingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|j:\\desafio\\backend\\backend.test\\databasetests\\sqlitetestconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|solutionrelative:backend.test\\databasetests\\sqlitetestconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|j:\\desafio\\backend\\backend.test\\domaintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|solutionrelative:backend.test\\domaintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|j:\\desafio\\backend\\backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|solutionrelative:backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|j:\\desafio\\backend\\backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|solutionrelative:backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|j:\\desafio\\backend\\backend.test\\databasetests\\sqlitetestconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13621C76-F0BA-4199-8763-F44B52B43847}|backend.Test\\backend.Test.csproj|solutionrelative:backend.test\\databasetests\\sqlitetestconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEA06B6E-B683-429F-A71F-B5785E0E66B7}|backend.InfraData\\backend.InfraData.csproj|j:\\desafio\\backend\\backend.infradata\\context\\backendapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEA06B6E-B683-429F-A71F-B5785E0E66B7}|backend.InfraData\\backend.InfraData.csproj|solutionrelative:backend.infradata\\context\\backendapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|j:\\desafio\\backend\\backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|solutionrelative:backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,126 +26,63 @@
       "DocumentGroups": [
         {
           "DockedHeight": 274,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductsMappingTest.cs",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\IntegrationTests\\ProductsMappingTest.cs",
-              "RelativeDocumentMoniker": "backend.Test\\IntegrationTests\\ProductsMappingTest.cs",
-              "ToolTip": "J:\\desafio\\backend\\backend.Test\\IntegrationTests\\ProductsMappingTest.cs",
-              "RelativeToolTip": "backend.Test\\IntegrationTests\\ProductsMappingTest.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwB0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T22:37:45.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductAppServiceTest.cs",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductAppServiceTest.cs",
-              "RelativeDocumentMoniker": "backend.Test\\UnitTests\\ProductAppServiceTest.cs",
-              "ToolTip": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductAppServiceTest.cs",
-              "RelativeToolTip": "backend.Test\\UnitTests\\ProductAppServiceTest.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAIwFkAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T22:28:47.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductRepositoryTest.cs",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductRepositoryTest.cs",
-              "RelativeDocumentMoniker": "backend.Test\\UnitTests\\ProductRepositoryTest.cs",
-              "ToolTip": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductRepositoryTest.cs",
-              "RelativeToolTip": "backend.Test\\UnitTests\\ProductRepositoryTest.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAcwBMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T22:34:49.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductServiceTest.cs",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductServiceTest.cs",
-              "RelativeDocumentMoniker": "backend.Test\\UnitTests\\ProductServiceTest.cs",
-              "ToolTip": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductServiceTest.cs",
-              "RelativeToolTip": "backend.Test\\UnitTests\\ProductServiceTest.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowBAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T22:36:39.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SqliteTestConnection.cs",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
-              "RelativeDocumentMoniker": "backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
-              "ToolTip": "J:\\desafio\\backend\\backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
-              "RelativeToolTip": "backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T22:38:15.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DomainTest.cs",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\DomainTest.cs",
-              "RelativeDocumentMoniker": "backend.Test\\DomainTest.cs",
-              "ToolTip": "J:\\desafio\\backend\\backend.Test\\DomainTest.cs",
-              "RelativeToolTip": "backend.Test\\DomainTest.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAADEAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T22:41:51.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\appsettings.json",
               "RelativeDocumentMoniker": "backend.Api\\appsettings.json",
               "ToolTip": "J:\\desafio\\backend\\backend.Api\\appsettings.json",
               "RelativeToolTip": "backend.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-24T14:53:57.47Z",
+              "WhenOpened": "2024-05-26T06:04:22.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\Program.cs",
-              "RelativeDocumentMoniker": "backend.Api\\Program.cs",
-              "ToolTip": "J:\\desafio\\backend\\backend.Api\\Program.cs",
-              "RelativeToolTip": "backend.Api\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABBAAAA",
+              "DocumentIndex": 2,
+              "Title": "SqliteTestConnection.cs",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
+              "RelativeDocumentMoniker": "backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
+              "ToolTip": "J:\\desafio\\backend\\backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
+              "RelativeToolTip": "backend.Test\\DatabaseTests\\SqliteTestConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAC8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T13:53:53.836Z"
+              "WhenOpened": "2024-05-26T06:01:45.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "backendApiContext.cs",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.InfraData\\Context\\backendApiContext.cs",
-              "RelativeDocumentMoniker": "backend.InfraData\\Context\\backendApiContext.cs",
-              "ToolTip": "J:\\desafio\\backend\\backend.InfraData\\Context\\backendApiContext.cs",
-              "RelativeToolTip": "backend.InfraData\\Context\\backendApiContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBUAAAAxAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductRepositoryTest.cs",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductRepositoryTest.cs",
+              "RelativeDocumentMoniker": "backend.Test\\UnitTests\\ProductRepositoryTest.cs",
+              "ToolTip": "J:\\desafio\\backend\\backend.Test\\UnitTests\\ProductRepositoryTest.cs",
+              "RelativeToolTip": "backend.Test\\UnitTests\\ProductRepositoryTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T13:52:24.858Z"
+              "WhenOpened": "2024-05-26T05:58:15.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "backend.Api",
+              "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
+              "RelativeDocumentMoniker": "backend.Api\\backend.Api.csproj",
+              "ToolTip": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
+              "RelativeToolTip": "backend.Api\\backend.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-26T05:57:01.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             }
           ]
         }

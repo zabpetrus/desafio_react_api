@@ -402,6 +402,22 @@
           "build/net8.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/8.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.5"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/8.0.5": {
         "type": "package",
         "dependencies": {
@@ -1762,6 +1778,21 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.InMemory/8.0.5": {
+      "sha512": "gKsH9dFzRAvE/DjJZ5sw1LpQoj8jiY1Wxd7BOx0i7oQZ4VyXBIFZYKLXIypkkIHfvqwTlfDL4boMZxVFZ6SgNQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/8.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.8.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.Relational/8.0.5": {
       "sha512": "x2bdSK3eKKEQkDdYcGxxDU+S7NqhBiz/Fciz01Mafz9P71VRdP3JskKHaZvwK0/sNEAT3hS7BTsDQGUA2F9mAA==",
       "type": "package",
@@ -2854,6 +2885,7 @@
       "Microsoft.Data.Sqlite >= 8.0.5",
       "Microsoft.Data.Sqlite.Core >= 8.0.5",
       "Microsoft.EntityFrameworkCore >= 8.0.5",
+      "Microsoft.EntityFrameworkCore.InMemory >= 8.0.5",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.5",
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 8.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.5",
@@ -2927,6 +2959,10 @@
             "version": "[8.0.5, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.5, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[8.0.5, )"
           },

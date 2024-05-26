@@ -8,6 +8,7 @@ namespace backend.Application.ViewModel
 {
     public class ProductViewModel
     {
+        public int Id { get; set; }
 
         public string Name { get; set; } = string.Empty;
 
@@ -22,6 +23,16 @@ namespace backend.Application.ViewModel
             Price = price;
         }
 
+        public ProductViewModel(int id, string name, string description, decimal price)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            Price = price;
+        }
+
         public ProductViewModel() {  }
+
+     
     }
 }

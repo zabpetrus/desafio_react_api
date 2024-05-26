@@ -1,8 +1,12 @@
-﻿using backend.Application.Interfaces;
-using backend.Application.ViewModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using backend.Domain.Entities;
+using backend.Application.Interfaces;
+using backend.Application.ViewModel;
 
 namespace backend.Api.Controllers
 {
@@ -12,70 +16,83 @@ namespace backend.Api.Controllers
     {
         private readonly IProductAppService _productAppService;
 
-
-        public ProductsController( IProductAppService productAppService )
+        public ProductsController(IProductAppService productAppService)
         {
             _productAppService = productAppService;
         }
 
-
-        // GET: api/<ProductsController>
+        // GET: api/Products
         [HttpGet]
-        public List<ProductViewModel> Get()
-        {             
-            return _productAppService.GetAllProducts();
+        public async Task<ActionResult<IEnumerable<Product>>> GetProduct()
+        {
+            var response = await Task.Run(() => _productAppService.GetAllProducts());
+            return Ok(response);
         }
 
-        // GET api/<ProductsController>/5
+        // GET: api/Products/5
         [HttpGet("{id}")]
-        public ProductViewModel Get(int id)
+        public async Task<ActionResult<Product>> GetProduct(int id)
         {
-           return _productAppService.GetProductById(id);
+            var product = await Task.Run(() => _productAppService.GetProductById(id));
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(product);
         }
 
-        // POST api/<ProductsController>
-        [HttpPost]
-        public void Post([FromBody] ProductViewModel productviewmodel)
-        {
-            _productAppService.CreateNewProduct(productviewmodel);
-        }
-
-        // PUT api/<ProductsController>/5
+        // PUT: api/Products/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] ProductViewModel productviewmodel)
+        public async Task<IActionResult> PutProduct(int id, [FromBody] ProductViewModel productViewModel)
         {
-           if(productviewmodel.Equals(null) || id == 0 )
-           {
-                return BadRequest();
-           }
-
-            int result = _productAppService.UpdateProduct(id, productviewmodel);
-
-            if (result == 0)
+            try
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Desculpa...Não foi possivel atualizar o produto");
+                var productUpdated = await Task.Run(() => _productAppService.UpdateProduct(id, productViewModel));
+                if (productUpdated == 1) return Ok("Atualizado com sucesso!");
             }
-            else
+            catch (Exception ex)
             {
-                return Ok("Requisição feita com sucesso!");
+                return NotFound(ex);
             }
-           
+
+            return NoContent();
         }
 
-        // DELETE api/<ProductsController>/5
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        // POST: api/Products
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost]
+        public async Task<ActionResult<Product>> PostProduct([FromBody] ProductViewModel product)
         {
-            int result = _productAppService.DeleteProductById(id);
-            if(result== 0 )
-            {
-                return BadRequest("Não foi possivel excluir o produto!");
-            }
-            else
-            {
-                return Ok("Exclusão feita com sucesso!");
-            }
+            var response = await Task.Run(() => _productAppService.CreateNewProduct(product));
+            return Ok(response);
+        }
 
+        // DELETE: api/Products/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var response = await Task.Run(() => _productAppService.DeleteProductById(id));
+            return Ok(response);
+        }
+
+        private bool ProductExists(int id)
+        {
+            return _productAppService.ProductExists(id);
+        }
+
+        // POST: api/Products/Search
+        [HttpPost("Search")]
+        public async Task<IActionResult> SearchProduct([FromBody] ProductViewModel productViewModel)
+        {
+            var response = await Task.Run(() => _productAppService.SeachProduct(productViewModel));
+            if (response.Any())
+            {
+                return Ok(response);
+            }
+            return NoContent();
         }
     }
 }

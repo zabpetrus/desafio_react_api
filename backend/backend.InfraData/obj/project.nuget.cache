@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+m3MTQKzhQ4=",
+  "dgSpecHash": "dCXFai74cZA=",
   "success": true,
   "projectFilePath": "J:\\desafio\\backend\\backend.InfraData\\backend.InfraData.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.5\\microsoft.entityframeworkcore.analyzers.8.0.5.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.5\\microsoft.entityframeworkcore.design.8.0.5.nupkg.sha512",
+    "C:\\Users\\zsant\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.5\\microsoft.entityframeworkcore.inmemory.8.0.5.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.5\\microsoft.entityframeworkcore.relational.8.0.5.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.5\\microsoft.entityframeworkcore.sqlite.8.0.5.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.5\\microsoft.entityframeworkcore.sqlite.core.8.0.5.nupkg.sha512",

@@ -345,3 +345,4 @@ J:\desafio\backend\backend.Test\obj\Debug\net8.0\refint\backend.Test.dll
 J:\desafio\backend\backend.Test\obj\Debug\net8.0\backend.Test.pdb
 J:\desafio\backend\backend.Test\obj\Debug\net8.0\backend.Test.genruntimeconfig.cache
 J:\desafio\backend\backend.Test\obj\Debug\net8.0\ref\backend.Test.dll
+J:\desafio\backend\backend.Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

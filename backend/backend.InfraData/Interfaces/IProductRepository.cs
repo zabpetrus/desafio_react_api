@@ -22,5 +22,9 @@ namespace backend.InfraData.Interfaces
 
         //Exclui um produto por id
         int DeleteProduct(int id);
+
+        List<Product> SeachProduct( Product product ); 
+        
+        bool ProductExists( int id );
     }
 }

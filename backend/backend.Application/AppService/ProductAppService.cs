@@ -40,6 +40,16 @@ namespace backend.Application.AppService
             return _productAppService.GetProductById(id);
         }
 
+        public bool ProductExists(int id)
+        {
+            return (_productAppService.ProductExists(id));  
+        }
+
+        public List<ProductViewModel> SeachProduct(ProductViewModel productviewmodel)
+        {
+            return _productAppService.SeachProduct(productviewmodel);
+        }
+
         public int UpdateProduct(int id, ProductViewModel product)
         {
             return _productAppService.UpdateProduct(id, product);

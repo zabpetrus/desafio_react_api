@@ -1,8 +1,10 @@
 ﻿using backend.Domain.Entities;
 using backend.Domain.Interfaces;
 using backend.Domain.Services;
+using backend.InfraData.Context;
 using backend.InfraData.Interfaces;
 using backend.InfraData.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -16,6 +18,23 @@ namespace backend.Test.UnitTests
     public class ProductRepositoryTest
     {
 
+        private readonly backendApiContext _context;
+
+        /*
+         
+         
+         */
+
+        public ProductRepositoryTest()
+        {
+            var options = new DbContextOptionsBuilder<backendApiContext>()
+                            .UseSqlite("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=J:\\desafio\\backend\\backend.InfraData\\Databases\\ServiceDatabase.mdf;Integrated Security=True")
+                            .Options;
+
+            _context = new backendApiContext(options);
+        }
+
+
         [Fact]
         public void RepositoryAddProductTest()
         {
@@ -26,7 +45,7 @@ namespace backend.Test.UnitTests
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
             mock.Setup(o => o.AddProduct(product)).Returns(1);
 
-            ProductRepository productRepository = new ProductRepository(mock.Object);
+            ProductRepository productRepository = new ProductRepository(mock.Object, _context);
             var result = productRepository.AddProduct(product);
 
             Assert.Equal(1, result);
@@ -45,7 +64,7 @@ namespace backend.Test.UnitTests
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
             mock.Setup(o => o.GetProductById(id)).Returns(product);
 
-            ProductRepository productRepository = new ProductRepository(mock.Object);
+            ProductRepository productRepository = new ProductRepository(mock.Object, _context );
             var result = productRepository.GetProductById(id);
 
             Assert.Equal(product, result);
@@ -64,7 +83,7 @@ namespace backend.Test.UnitTests
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
             mock.Setup(o => o.GetAllProducts()).Returns(products);
 
-            ProductRepository productRepository = new ProductRepository(mock.Object);
+            ProductRepository productRepository = new ProductRepository(mock.Object, _context);
             var result = productRepository.GetAllProducts();
 
             Assert.Equal(products, result);
@@ -80,7 +99,7 @@ namespace backend.Test.UnitTests
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
             mock.Setup(o => o.UpdateProduct(product)).Returns(1);
 
-            ProductRepository productRepository = new ProductRepository(mock.Object);
+            ProductRepository productRepository = new ProductRepository(mock.Object, _context);
             var result = productRepository.UpdateProduct(product);
 
             Assert.Equal(1, result);
@@ -96,7 +115,7 @@ namespace backend.Test.UnitTests
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
             mock.Setup(o => o.DeleteProduct(id)).Returns(1);
 
-            ProductRepository productRepository = new ProductRepository(mock.Object);
+            ProductRepository productRepository = new ProductRepository(mock.Object, _context);
             var result = productRepository.DeleteProduct(id);
 
             Assert.Equal(1, result);

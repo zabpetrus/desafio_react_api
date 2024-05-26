@@ -15,7 +15,7 @@ namespace backend.Test.DatabaseTests
         public void StringConnctionTest()
         {
             // Arrange
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=J:\\desafio\\backend\\backend.InfraData\\Database.mdf;Integrated Security=True;Connect Timeout=30";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=J:\\desafio\\backend\\backend.InfraData\\Databases\\ServiceDatabase.mdf;Integrated Security=True";
 
             var dbOption = new DbContextOptionsBuilder<backendApiContext>()
             .UseSqlite(connectionString).Options;
