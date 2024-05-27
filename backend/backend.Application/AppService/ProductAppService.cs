@@ -1,8 +1,12 @@
-﻿using backend.Application.Interfaces;
+﻿using AutoMapper;
+using backend.Application.Interfaces;
 using backend.Application.ViewModel;
+using backend.Domain.Entities;
+using backend.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,46 +17,66 @@ namespace backend.Application.AppService
 
         private readonly IProductAppService _productAppService;
 
+        private readonly IProductService _productService;
+
+        private readonly IMapper _mapper;
+
 
         public ProductAppService(){ }
 
 
-        public ProductAppService(IProductAppService productAppService){ _productAppService = productAppService; }   
+        public ProductAppService
+        (             
+            IProductService productService, 
+            IMapper mapper 
+        ){ 
+            _productService = productService; 
+            _mapper = mapper;         
+        }   
         
        
-        public int CreateNewProduct(ProductViewModel product)
-        {                
-            return _productAppService.CreateNewProduct(product);
+        public int CreateNewProduct(ProductViewModel productviewmodel)
+        {
+            Product product = _mapper.Map<Product>(productviewmodel);
+            return _productService.CreateNewProduct(product);
+            
         }
 
         public int DeleteProductById(int id)
         {
-            return _productAppService.DeleteProductById(id);
+            return _productService.DeleteProductById(id);   
         }
 
         public List<ProductViewModel> GetAllProducts()
         {
-           return _productAppService.GetAllProducts();
+            var productlist = _productService.GetProducts();
+            return _mapper.Map<List<Product>, List<ProductViewModel>>(productlist);
         }
 
         public ProductViewModel GetProductById(int id)
         {
-           return _productAppService.GetProductById(id);
+            Product product = _productService.GetProductById(id);
+            return  _mapper.Map<ProductViewModel>(product);
         }
 
-        public bool ProductExists(int id)
+        public bool ProductExists(ProductViewModel productViewModel)
         {
-           return (_productAppService.ProductExists(id));  
+            Product product = _mapper.Map<Product>(productViewModel);
+            return _productService.ProductExists(product);  
         }
 
         public List<ProductViewModel> SeachProduct(ProductViewModel productviewmodel)
         {
-            return _productAppService.SeachProduct(productviewmodel);
+            Product pr = _mapper.Map<Product>(productviewmodel);
+            List<Product> productlist = _productService.FindProduct(pr);
+            return _mapper.Map<List<Product>, List<ProductViewModel>>(productlist);
+
         }
 
-        public int UpdateProduct(int id, ProductViewModel product)
+        public int UpdateProduct(int id, ProductViewModel productviewmodel)
         {
-            return _productAppService.UpdateProduct(id, product);
+            var product_mapped = _mapper.Map<Product>(productviewmodel);
+            return _productService.UpdateProduct(product_mapped);
         }
     }
 }

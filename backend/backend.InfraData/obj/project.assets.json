@@ -1566,7 +1566,8 @@
           "SQLite": "3.13.0",
           "System.Data.SQLite": "1.0.118",
           "System.Data.SQLite.Core": "1.0.118",
-          "System.Data.SQLite.EF6": "1.0.118"
+          "System.Data.SQLite.EF6": "1.0.118",
+          "backend.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/backend.Application.dll": {}

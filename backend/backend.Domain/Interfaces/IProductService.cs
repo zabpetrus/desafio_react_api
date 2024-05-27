@@ -22,5 +22,11 @@ namespace backend.Domain.Interfaces
 
         //Exclui um produto por id
         int DeleteProductById(int id);
+
+        //Verifica se um produto existe
+        bool ProductExists( Product product );
+
+        //Procura por um produtos e retorna todas as ocorrencias do produto!
+        List<Product> FindProduct( Product product );
     }
 }

@@ -13,3 +13,6 @@ J:\desafio\backend\backend.Application\obj\Debug\net8.0\refint\backend.Applicati
 J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.pdb
 J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend.Application.genruntimeconfig.cache
 J:\desafio\backend\backend.Application\obj\Debug\net8.0\ref\backend.Application.dll
+J:\desafio\backend\backend.Application\bin\Debug\net8.0\backend.Domain.dll
+J:\desafio\backend\backend.Application\bin\Debug\net8.0\backend.Domain.pdb
+J:\desafio\backend\backend.Application\obj\Debug\net8.0\backend..39599843.Up2Date

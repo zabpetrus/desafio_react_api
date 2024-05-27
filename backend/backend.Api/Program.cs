@@ -3,8 +3,6 @@ using backend.Application.Interfaces;
 using backend.InfraData.Context;
 using backend.InfraData.Mappings;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 
 
 

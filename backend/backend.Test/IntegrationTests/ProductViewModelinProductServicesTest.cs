@@ -5,19 +5,8 @@ using backend.Application.ViewModel;
 using backend.Domain.Entities;
 using backend.Domain.Interfaces;
 using backend.Domain.Services;
-using backend.InfraData.Context;
 using backend.InfraData.Mappings;
-using Microsoft.Build.Construction;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit;
 
 namespace backend.Test.IntegrationTests
 {
@@ -53,7 +42,7 @@ namespace backend.Test.IntegrationTests
             Mock<IProductAppService> mock2 = new Mock<IProductAppService>();
             mock2.Setup(p => p.GetAllProducts()).Returns(destino);
 
-            ProductAppService productAppService = new ProductAppService(mock2.Object);
+            ProductAppService productAppService = new ProductAppService( null, _mapper);
             List<ProductViewModel> org = productAppService.GetAllProducts();
 
             // Assuming org and ser are lists of the same length

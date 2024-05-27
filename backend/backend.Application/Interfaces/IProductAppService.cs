@@ -27,7 +27,7 @@ namespace backend.Application.Interfaces
 
         List<ProductViewModel> SeachProduct(ProductViewModel productviewmodel);
 
-        bool ProductExists(int id);
+        bool ProductExists(ProductViewModel productViewModel);
 
 
     }

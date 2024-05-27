@@ -1,6 +1,9 @@
-﻿using backend.Application.AppService;
+﻿using AutoMapper;
+using backend.Application.AppService;
 using backend.Application.Interfaces;
 using backend.Application.ViewModel;
+using backend.Domain.Interfaces;
+using backend.InfraData.Mappings;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -13,7 +16,9 @@ namespace backend.Test.UnitTests
 {
     public class ProductAppServiceTest 
     {
-        
+        private readonly IMapper _mapper;
+
+       
         [Fact]
         public void AppServiceGetAllProductsTests()
         {
@@ -29,7 +34,7 @@ namespace backend.Test.UnitTests
             mock.Setup(o => o.GetAllProducts()).Returns(produtos);
 
             // Act
-            ProductAppService productAppService = new ProductAppService(mock.Object);
+            ProductAppService productAppService = new ProductAppService(null, _mapper);
             var result = productAppService.GetAllProducts();
 
             // Assert
@@ -48,7 +53,7 @@ namespace backend.Test.UnitTests
             Mock<IProductAppService> mock = new Mock<IProductAppService>();
             mock.Setup(o => o.GetProductById(id)).Returns(productViewModel);
 
-            ProductAppService productAppService = new ProductAppService(mock.Object);
+            ProductAppService productAppService = new ProductAppService( null, _mapper);
             var result = productAppService.GetProductById(id);
 
             Assert.Equal(productViewModel, result);
@@ -64,7 +69,7 @@ namespace backend.Test.UnitTests
             Mock<IProductAppService> mock = new Mock<IProductAppService>();
             mock.Setup(o => o.CreateNewProduct(productViewModel)).Returns(1);
 
-            ProductAppService productAppService = new ProductAppService(mock.Object);
+            ProductAppService productAppService = new ProductAppService( null, _mapper);
             var result = productAppService.CreateNewProduct(productViewModel);
 
              Assert.Equal(1, result);
@@ -82,7 +87,7 @@ namespace backend.Test.UnitTests
             Mock<IProductAppService> mock = new Mock<IProductAppService>();
             mock.Setup(o => o.UpdateProduct(id, productViewModel)).Returns(1);
 
-            ProductAppService productAppService = new ProductAppService(mock.Object);
+            ProductAppService productAppService = new ProductAppService( null, _mapper);
             var result = productAppService.UpdateProduct(id, productViewModel);
 
             Assert.Equal(1, result);
@@ -99,7 +104,7 @@ namespace backend.Test.UnitTests
             Mock<IProductAppService> mock = new Mock<IProductAppService>();
             mock.Setup(o => o.DeleteProductById(id)).Returns(1);
 
-            ProductAppService productAppService = new ProductAppService(mock.Object);
+            ProductAppService productAppService = new ProductAppService( null, _mapper);
             var result = productAppService.DeleteProductById(id);
 
             Assert.Equal(1, result);

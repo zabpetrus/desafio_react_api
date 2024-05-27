@@ -28,6 +28,11 @@ namespace backend.Domain.Services
             return (_productService.DeleteProductById(id));
         }
 
+        public List<Product> FindProduct(Product product)
+        {
+            return _productService.FindProduct(product);
+        }
+
         public Product GetProductById(int id)
         {
             return  _productService.GetProductById(id);
@@ -38,7 +43,11 @@ namespace backend.Domain.Services
             return _productService.GetProducts();
         }
 
-      
+        public bool ProductExists(Product product)
+        {
+            return _productService.ProductExists(product);
+        }
+
         public int UpdateProduct(Product product)
         {
              return _productService.UpdateProduct(product); 

@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj": {
+                "projectPath": "J:\\desafio\\backend\\backend.Domain\\backend.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

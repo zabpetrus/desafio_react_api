@@ -23,7 +23,8 @@
           "SQLite": "3.13.0",
           "System.Data.SQLite": "1.0.118",
           "System.Data.SQLite.Core": "1.0.118",
-          "System.Data.SQLite.EF6": "1.0.118"
+          "System.Data.SQLite.EF6": "1.0.118",
+          "backend.Domain": "1.0.0"
         },
         "runtime": {
           "backend.Application.dll": {}
@@ -1067,6 +1068,28 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "backend.Domain/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.Data.Sqlite": "8.0.5",
+          "Microsoft.Data.Sqlite.Core": "8.0.5",
+          "Microsoft.EntityFrameworkCore": "8.0.5",
+          "Microsoft.EntityFrameworkCore.InMemory": "8.0.5",
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.5",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.5",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Moq": "4.20.70",
+          "Newtonsoft.Json": "13.0.3",
+          "SQLite": "3.13.0",
+          "System.Data.SQLite": "1.0.118",
+          "System.Data.SQLite.Core": "1.0.118",
+          "System.Data.SQLite.EF6": "1.0.118"
+        },
+        "runtime": {
+          "backend.Domain.dll": {}
+        }
       }
     }
   },
@@ -1614,6 +1637,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "backend.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

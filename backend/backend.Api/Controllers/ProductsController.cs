@@ -76,9 +76,10 @@ namespace backend.Api.Controllers
             return Ok(response);
         }
 
-        private bool ProductExists(int id)
+        [HttpGet("{productViewModel}")]
+        private bool ProductExists(ProductViewModel productViewModel)
         {
-            return _productAppService.ProductExists(id);
+            return _productAppService.ProductExists(productViewModel);
         }
 
         // POST: api/Products/Search
