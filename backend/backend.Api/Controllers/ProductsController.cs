@@ -17,10 +17,7 @@ namespace backend.Api.Controllers
 
         private readonly IProductAppService _productAppService;
 
-        public ProductsController(IProductAppService productAppService)
-        {
-            _productAppService = productAppService;
-        }
+        public ProductsController(IProductAppService productAppService) {  _productAppService = productAppService;  }
 
         // GET: api/Products
         [HttpGet]

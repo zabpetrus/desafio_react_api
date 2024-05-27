@@ -27,8 +27,6 @@ builder.Services.AddCors(options =>
 builder.Services.AddScoped<IProductAppService, ProductAppService>();
 
 
-
-
 //Colocando o Automapper
 builder.Services.AddAutoMapper(typeof(ProductsProfile).Assembly);
 

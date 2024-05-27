@@ -16,6 +16,8 @@ namespace backend.InfraData.Context
 
         public DbSet<Product> Product { get; set; } = default!;
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        => optionsBuilder.UseSqlite("data source=J:\\desafio\\backend\\backend.InfraData\\Databases\\InfraDatabase.db");
 
     }
 }
