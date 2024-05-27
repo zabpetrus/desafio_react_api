@@ -11,7 +11,7 @@ using Xunit;
 
 namespace backend.Test.UnitTests
 {
-    public class ProductAppServiceTest
+    public class ProductAppServiceTest 
     {
         
         [Fact]
@@ -19,17 +19,20 @@ namespace backend.Test.UnitTests
         {
             //Teste de List<ProductViewModel> GetAllProducts();
 
-            List<ProductViewModel> produtos = new List<ProductViewModel>();
-            produtos.Add(new ProductViewModel("Sapato de couro", "Sapato resistente de Courino", 125.66m));
+            // Arrange
+            List<ProductViewModel> produtos = new List<ProductViewModel>
+            {
+                new ProductViewModel("Sapato de couro", "Sapato resistente de Courino", 125.66m)
+            };
 
             Mock<IProductAppService> mock = new Mock<IProductAppService>();
             mock.Setup(o => o.GetAllProducts()).Returns(produtos);
 
-            //Act
+            // Act
             ProductAppService productAppService = new ProductAppService(mock.Object);
-            var result = productAppService.GetAllProducts();    
+            var result = productAppService.GetAllProducts();
 
-            //Assert
+            // Assert
             Assert.Equal(produtos, result);
 
         }

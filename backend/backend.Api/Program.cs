@@ -1,11 +1,16 @@
-﻿using backend.InfraData.Context;
+﻿using backend.Application.AppService;
+using backend.Application.Interfaces;
+using backend.InfraData.Context;
 using backend.InfraData.Mappings;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 builder.Services.AddCors(options =>
 {
@@ -18,7 +23,16 @@ builder.Services.AddCors(options =>
         });
 });
 
+
+builder.Services.AddScoped<IProductAppService, ProductAppService>();
+
+
+
+
+//Colocando o Automapper
 builder.Services.AddAutoMapper(typeof(ProductsProfile).Assembly);
+
+
 
 builder.Services.AddDbContext<backendApiContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'backendApiContext' not found.")));

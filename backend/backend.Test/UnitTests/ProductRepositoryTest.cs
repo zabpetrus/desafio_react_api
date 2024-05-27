@@ -4,6 +4,7 @@ using backend.Domain.Services;
 using backend.InfraData.Context;
 using backend.InfraData.Interfaces;
 using backend.InfraData.Repositories;
+using Elfie.Serialization;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 using System;
@@ -12,6 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace backend.Test.UnitTests
 {
@@ -20,16 +22,12 @@ namespace backend.Test.UnitTests
 
         private readonly backendApiContext _context;
 
-        /*
-         
-         
-         */
-
+       
         public ProductRepositoryTest()
         {
             var options = new DbContextOptionsBuilder<backendApiContext>()
-                            .UseSqlite("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=J:\\desafio\\backend\\backend.InfraData\\Databases\\ServiceDatabase.mdf;Integrated Security=True")
-                            .Options;
+            .UseSqlite("data source=J:\\desafio\\backend\\backend.InfraData\\Databases\\InfraDatabase.db")
+            .Options;
 
             _context = new backendApiContext(options);
         }

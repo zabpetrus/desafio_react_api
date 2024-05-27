@@ -16,6 +16,8 @@ namespace backend.CrossCutting.Logging
             _logger = logger;
         }
 
+
+
         public void setMessage(string message)
         {
             _logger.LogInformation(message);

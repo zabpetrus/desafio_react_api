@@ -15,7 +15,6 @@ namespace backend.InfraData.Repositories
 
         private readonly IProductRepository _repository;
 
-
         private readonly backendApiContext _context;
 
     
@@ -28,15 +27,18 @@ namespace backend.InfraData.Repositories
 
         public int AddProduct(Product product)
         {
+            return _repository.AddProduct(product);    
+            /*
             _context.Product.Add(product);
             _context.SaveChanges();
-
-            return 1;
-            
+            return 1; */            
         }
 
         public int DeleteProduct(int id)
         {
+            return _repository.DeleteProduct(id);
+
+            /*
             var product = _context.Product.Find(id);
             if (product == null)
             {
@@ -48,26 +50,32 @@ namespace backend.InfraData.Repositories
                 _context.SaveChanges();
                 return 1;  //ok
             }
+            */
         }
 
         public List<Product> GetAllProducts()
         {
-            return  _context.Product.ToList();
+            return _repository.GetAllProducts();
+           // return  _context.Product.ToList();
         }
 
         public Product GetProductById(int id)
         {
-            return _context.Product.Find(id);
+            return _repository.GetProductById(id);
+           // return _context.Product.Find(id);
         }
 
         public bool ProductExists(int id)
         {
-            return _context.Product.Any(e => e.id == id);
+            return _repository.ProductExists(id);   
+           // return _context.Product.Any(e => e.id == id);
         }
 
    
         public int UpdateProduct(Product product)
         {
+            return (_repository.UpdateProduct(product));
+            /*
             _context.Entry(product).State = EntityState.Modified;
 
             try
@@ -79,10 +87,13 @@ namespace backend.InfraData.Repositories
             {
                return 0;    
             }
+            */
         }
 
         public List<Product> SeachProduct(Product product)
         {
+            return _repository.SeachProduct(product);   
+            /*
             var query = _context.Product.AsQueryable();
 
             if (!string.IsNullOrEmpty(product.name))
@@ -96,6 +107,7 @@ namespace backend.InfraData.Repositories
             }            
 
             return query.ToList();
+            */
         }
 
     }

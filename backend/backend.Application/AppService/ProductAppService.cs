@@ -13,15 +13,14 @@ namespace backend.Application.AppService
         private readonly IProductAppService _productAppService;
 
 
-        public ProductAppService(IProductAppService productAppService)
-        {
-            _productAppService = productAppService;
-        }
+        public ProductAppService(){ }
 
 
-
+        public ProductAppService(IProductAppService productAppService){ _productAppService = productAppService; }   
+        
+       
         public int CreateNewProduct(ProductViewModel product)
-        {
+        {                
             return _productAppService.CreateNewProduct(product);
         }
 
@@ -32,17 +31,17 @@ namespace backend.Application.AppService
 
         public List<ProductViewModel> GetAllProducts()
         {
-            return _productAppService.GetAllProducts();
+           return _productAppService.GetAllProducts();
         }
 
         public ProductViewModel GetProductById(int id)
         {
-            return _productAppService.GetProductById(id);
+           return _productAppService.GetProductById(id);
         }
 
         public bool ProductExists(int id)
         {
-            return (_productAppService.ProductExists(id));  
+           return (_productAppService.ProductExists(id));  
         }
 
         public List<ProductViewModel> SeachProduct(ProductViewModel productviewmodel)
