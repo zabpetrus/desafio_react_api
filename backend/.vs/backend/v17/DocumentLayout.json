@@ -1,41 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "J:\\desafio\\backend\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|j:\\desafio\\backend\\backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F9F0E6B0-B59B-4895-9BE9-2533AA5DEBD5}|backend.Api\\backend.Api.csproj|solutionrelative:backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 274,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "backend.Api",
-              "DocumentMoniker": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
-              "RelativeDocumentMoniker": "backend.Api\\backend.Api.csproj",
-              "ToolTip": "J:\\desafio\\backend\\backend.Api\\backend.Api.csproj",
-              "RelativeToolTip": "backend.Api\\backend.Api.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-28T01:54:15.571Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

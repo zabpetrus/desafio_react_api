@@ -25,6 +25,6 @@ namespace backend.Domain.RepositoryInterfaces
 
         List<Product> SeachProduct(Product product);
 
-        bool ProductExists(int id);
+        bool ProductExists(Product product);
     }
 }

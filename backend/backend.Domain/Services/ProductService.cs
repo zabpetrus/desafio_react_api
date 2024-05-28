@@ -1,16 +1,12 @@
 ﻿using backend.Domain.Entities;
 using backend.Domain.Interfaces;
 using backend.Domain.RepositoryInterfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace backend.Domain.Services
 {
     public class ProductService : IProductService
     {
+
         private readonly IProductRepository _productRepository;
 
         private readonly IProductService _productService;
@@ -23,37 +19,37 @@ namespace backend.Domain.Services
 
         public int CreateNewProduct(Product product)
         {
-            return _productService.CreateNewProduct(product);
+            return _productRepository.AddProduct(product);
         }
 
         public int DeleteProductById(int id)
         {
-            return (_productService.DeleteProductById(id));
+           return _productRepository.DeleteProduct(id);
         }
 
         public List<Product> FindProduct(Product product)
         {
-            return _productService.FindProduct(product);
+           return _productRepository.SeachProduct(product);
         }
 
         public Product GetProductById(int id)
         {
-            return  _productService.GetProductById(id);
+            return _productRepository.GetProductById(id);
         }
 
         public List<Product> GetProducts()
         {
-            return _productService.GetProducts();
+            return _productRepository.GetAllProducts();                                     
         }
 
         public bool ProductExists(Product product)
         {
-            return _productService.ProductExists(product);
+            return _productRepository.ProductExists(product);                        
         }
 
         public int UpdateProduct(Product product)
         {
-             return _productService.UpdateProduct(product); 
+            return _productRepository.UpdateProduct(product);
         }
     }
 }

@@ -1,13 +1,5 @@
 ﻿using backend.Domain.Context;
-using Elfie.Serialization;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace backend.Test.DatabaseTests
 {
@@ -17,7 +9,7 @@ namespace backend.Test.DatabaseTests
         public void StringConnctionTestType()
         {
             // Arrange
-            string connectionString = "data source=J:\\desafio\\backend\\backend.InfraData\\Databases\\InfraDatabase.db";
+            string connectionString = "data source=J:\\desafio\\backend\\backend.Domain\\Databases\\InfraDatabase.db";
 
             var dbOption = new DbContextOptionsBuilder<backendApiContext>()
             .UseSqlite(connectionString).Options;

@@ -67,12 +67,6 @@ namespace backend.Domain.Repositories
             // return _context.Product.Find(id);
         }
 
-        public bool ProductExists(int id)
-        {
-            return _repository.ProductExists(id);
-            // return _context.Product.Any(e => e.id == id);
-        }
-
 
         public int UpdateProduct(Product product)
         {
@@ -112,6 +106,10 @@ namespace backend.Domain.Repositories
             */
         }
 
+        public bool ProductExists(Product product)
+        {
+           return _repository.ProductExists(product);
+        }
     }
 }
 

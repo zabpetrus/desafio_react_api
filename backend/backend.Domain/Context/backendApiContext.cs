@@ -17,7 +17,7 @@ namespace backend.Domain.Context
         public DbSet<Product> Product { get; set; } = default!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlite("data source=J:\\desafio\\backend\\backend.InfraData\\Databases\\InfraDatabase.db");
+        => optionsBuilder.UseSqlite("data source=J:\\desafio\\backend\\backend.Domain\\Databases\\InfraDatabase.db");
 
     }
 }
