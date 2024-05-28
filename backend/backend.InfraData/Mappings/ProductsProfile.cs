@@ -30,11 +30,7 @@ namespace backend.InfraData.Mappings
                 .ForMember(des => des.name, map => map.MapFrom(orig => orig.Name))
                 .ForMember(des => des.description, map => map.MapFrom(orig => orig.Description))
                 .ForMember(des => des.price, map => map.MapFrom(orig => orig.Price))
-                .IncludeAllDerived();
-            
-
-
-
+                .IncludeAllDerived(); 
 
 
             AllowNullCollections = true;

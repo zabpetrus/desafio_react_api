@@ -1,5 +1,6 @@
 ﻿using backend.Domain.Entities;
 using backend.Domain.Interfaces;
+using backend.Domain.RepositoryInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,8 @@ namespace backend.Domain.Services
 {
     public class ProductService : IProductService
     {
+        private readonly IProductRepository _productRepository;
+
         private readonly IProductService _productService;
 
 

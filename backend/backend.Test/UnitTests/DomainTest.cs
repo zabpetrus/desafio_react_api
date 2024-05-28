@@ -1,6 +1,6 @@
 using backend.Domain.Entities;
 
-namespace backend.Test
+namespace backend.Test.UnitTests
 {
     public class DomainTest
     {
@@ -28,7 +28,7 @@ namespace backend.Test
 
 
             Assert.Equal(1, product.id);
-            
+
 
         }
 
@@ -40,9 +40,9 @@ namespace backend.Test
             product.name = "Sapato azul";
             product.description = "Sapato do Edson Arantes";
             product.price = 23.55m;
-            
+
             Assert.Equal("Sapato azul", product.name);
-           
+
 
         }
 
@@ -56,7 +56,7 @@ namespace backend.Test
             product.price = 23.55m;
 
             Assert.Equal("Sapato do Edson Arantes", product.description);
-            
+
 
         }
     }

@@ -25,11 +25,7 @@ namespace backend.Application.AppService
         public ProductAppService(){ }
 
 
-        public ProductAppService
-        (             
-            IProductService productService, 
-            IMapper mapper 
-        ){ 
+        public ProductAppService(  IProductService productService,  IMapper mapper  ){ 
             _productService = productService; 
             _mapper = mapper;         
         }   

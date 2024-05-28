@@ -1,6 +1,6 @@
 ﻿using backend.Application.AppService;
 using backend.Application.Interfaces;
-using backend.InfraData.Context;
+using backend.Domain.Context;
 using backend.InfraData.Mappings;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,19 +1,9 @@
-﻿using backend.Domain.Entities;
-using backend.Domain.Interfaces;
-using backend.Domain.Services;
-using backend.InfraData.Context;
-using backend.InfraData.Interfaces;
-using backend.InfraData.Repositories;
-using Elfie.Serialization;
+﻿using backend.Domain.Context;
+using backend.Domain.Entities;
+using backend.Domain.Repositories;
+using backend.Domain.RepositoryInterfaces;
 using Microsoft.EntityFrameworkCore;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace backend.Test.UnitTests
 {

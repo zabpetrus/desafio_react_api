@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend.InfraData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1b1ff197717eeaf5f2dd45c8fa19c158f57005a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7898bfac3052f5db30bceacefeedaf7c1bb263e")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend.InfraData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend.InfraData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
