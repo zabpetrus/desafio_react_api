@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using backend.Domain.Entities;
 
-namespace backend.Domain.Context
+namespace backend.InfraData.Context
 {
     public class backendApiContext : DbContext
     {
@@ -17,7 +17,7 @@ namespace backend.Domain.Context
         public DbSet<Product> Product { get; set; } = default!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlite("data source=J:\\desafio\\backend\\backend.Domain\\Databases\\InfraDatabase.db");
+        => optionsBuilder.UseSqlite("data source=J:\\desafio\\backend\\backend.InfraData\\Databases\\InfraDatabase.db");
 
     }
 }

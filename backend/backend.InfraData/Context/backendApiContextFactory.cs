@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace backend.Domain.Context
+namespace backend.InfraData.Context
 {
     public class backendApiContextFactory : IDesignTimeDbContextFactory<backendApiContext>
     {

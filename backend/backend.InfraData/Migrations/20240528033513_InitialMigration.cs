@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace backend.Domain.Migrations
+namespace backend.InfraData.Migrations
 {
     /// <inheritdoc />
     public partial class InitialMigration : Migration

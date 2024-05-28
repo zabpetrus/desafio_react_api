@@ -1,6 +1,6 @@
-﻿using backend.Domain.Context;
-using backend.Domain.Entities;
+﻿using backend.Domain.Entities;
 using backend.Domain.RepositoryInterfaces;
+using backend.InfraData.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace backend.Domain.Repositories
+namespace backend.InfraData.Repositories
 {
     public class ProductRepository : IProductRepository
     {
@@ -108,7 +108,7 @@ namespace backend.Domain.Repositories
 
         public bool ProductExists(Product product)
         {
-           return _repository.ProductExists(product);
+            return _repository.ProductExists(product);
         }
     }
 }

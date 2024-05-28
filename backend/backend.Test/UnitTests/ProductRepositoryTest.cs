@@ -1,7 +1,7 @@
-﻿using backend.Domain.Context;
-using backend.Domain.Entities;
-using backend.Domain.Repositories;
+﻿using backend.Domain.Entities;
 using backend.Domain.RepositoryInterfaces;
+using backend.InfraData.Context;
+using backend.InfraData.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 

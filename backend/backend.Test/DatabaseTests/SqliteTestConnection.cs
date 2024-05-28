@@ -1,4 +1,4 @@
-﻿using backend.Domain.Context;
+﻿using backend.InfraData.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace backend.Test.DatabaseTests
@@ -9,7 +9,7 @@ namespace backend.Test.DatabaseTests
         public void StringConnctionTestType()
         {
             // Arrange
-            string connectionString = "data source=J:\\desafio\\backend\\backend.Domain\\Databases\\InfraDatabase.db";
+            string connectionString = "data source=J:\\desafio\\backend\\backend.InfraData\\Databases\\InfraDatabase.db";
 
             var dbOption = new DbContextOptionsBuilder<backendApiContext>()
             .UseSqlite(connectionString).Options;
